@@ -1,0 +1,202 @@
+
+body{
+  background: #dcdcdc;
+}
+.card-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+background: #dcdcdc;
+  }
+  .card-container{
+    position: relative;
+    width: 1200px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    bottom: -900px;
+   border: 1px solid black;
+   
+   
+  }
+   .card{
+    width: 100%;
+    background: #fff;
+  }
+
+
+  .Wcard-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  background: #dcdcdc;
+  }
+  .Wcard-container{
+    position: relative;
+    width: 1200px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 20px;
+    padding: 20px;
+   top: -1100px;
+  }
+   .Wcard{
+    width: 100%;
+    background: #fff;
+  }
+
+  .Mcard-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  background: #dcdcdc;
+  }
+  .Mcard-container{
+    position: relative;
+    width: 1200px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 20px;
+    padding: 20px;
+   top: -370px;
+  
+  }
+   .Mcard{
+    width: 100%;
+    background: #fff;
+   }
+  .Kcard-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  background: #dcdcdc;
+  }
+  .theRbody{
+    height: 200px;
+  }
+  .Kcard-container{
+    position: relative;
+    width: 1200px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 20px;
+    padding: 20px;
+   bottom: -250px;
+   
+   
+   
+   
+  
+  }
+   .Kcard{
+    width: 100%;
+    background: #fff;
+    margin-top:5rem;
+   }
+    
+   /* img {
+    height: 500px; 
+    min-height: 100%; 
+    width: 100%; 
+    object-fit: cover;
+  }
+  .container .content {
+    float: right;
+    padding: 0.5rem 1rem;
+  }  */
+  
+  
+  .imagebox {
+    width: 50%;
+    float: right;
+    height:250px;
+    position:relative;
+    bottom: -150px;
+   
+  }
+  
+  .imagebox img{
+    position:absolute;
+    top:140%;
+    transform:translateY(-50%);
+    overflow:hidden;
+  }
+  .Kheading-container{
+    background-color: rgb(8, 8, 8);
+  }
+  .textbox h1{
+    font-size: 50px;
+    margin-bottom: 2rem;
+    color: orangered;
+    
+  }
+  .textbox h2{
+font-size: 30px;
+color: orangered;
+
+  }
+  .textbox p{
+    font-size: 40px;
+    letter-spacing: 5;
+  }
+  
+  .textbox-cont {
+    width: 50%;
+    height:500px;
+    float: left;
+    position:relative;
+    bottom: -250px;
+    overflow:hidden;
+    
+   
+  }
+  
+  .textbox{
+    
+    
+    position:absolute;
+    text-align: center;
+  width:100%;
+  padding:20px;
+  top:50%;
+  transform:translateY(-50%);
+  
+}
+.M-imagebox{
+  width: 50%;
+  float: right;
+  height:250px;
+  position:relative;
+  bottom: -150px;
+}
+
+@media only screen and (max-width: 700px) {
+  .imagebox,
+  .textbox-cont{
+    width:100%;
+    height:400px;
+   }
+   
+   .textbox h1{
+  font-size: 30px; 
+  }
+  .textbox p{
+    font-size: 20px;
+  }
+   .imagebox{
+     top:-150px
+   }
+   .Kcard-container{
+     bottom: -400px;
+   }
+}
+  
+  
+  
+  
+   

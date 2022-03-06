@@ -1,0 +1,133 @@
+html, body{
+    height: 120%;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(235, 232, 232);
+     */
+  
+  }
+  
+  .container { 
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("https://images.pexels.com/photos/6192550/pexels-photo-6192550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+               height:100vh ;
+               width: 100%;
+              background-position:top 100px center;
+              background-repeat: no-repeat;
+              background-size:cover;
+              position: relative;
+           
+           
+              
+              
+             
+    
+  }
+  .title {
+      position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  .sub-title{
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 50px;
+    white-space: nowrap;
+  }
+ .buttons{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    border: none;
+    cursor :pointer;
+    margin: 4px 2px;
+    padding-right: 2rem;
+    width: 90%;
+   
+ }
+ .btn1{
+    margin-right: 2rem;
+ }
+ button {padding: 10px 24px; cursor: pointer;  }
+ button:hover{
+     background-color: black;
+     color: white;
+    
+ }
+ .story-section{
+
+     height: 500px;
+     text-align: center;
+     line-height: 2;
+ }
+ .story-header h1{
+   font-size: 40px;
+ }
+ .story-header p{
+   font-size: 20px;
+   margin-bottom:2rem;
+ }
+ .image-container {
+    display: flex;
+
+
+  justify-content: center;
+  /* position: relative;
+  bottom:-100px; */
+  }
+  .image{
+    width: 100%;
+  max-width: 600px;
+  height: auto;
+   
+  }
+  main {
+    max-width: 1300px;
+    /* margin: 30px auto; */
+    padding: 2rem auto;
+    width: 100%;  
+    display: flex;
+    justify-content: space-around;
+   
+    
+   
+    position: relative;
+   margin: 0 auto;
+   
+    bottom:-500px;
+    
+  }
+  
+  
+ @media screen and (max-width: 900px) {
+    .sub-title{
+     font-size: 25px;
+    }
+   
+ } 
+ @media screen and (max-width: 900px) {
+    main{
+  flex-direction: column;
+  align-items: center;
+  
+    }
+    .sub-article{
+        font-size: 25px;
+    }
+   
+ } 
+  
+  
+  
+  
